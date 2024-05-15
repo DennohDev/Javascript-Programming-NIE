@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Variables</title>
+</head>
+<body>
+    <h1>JAVASCRIPT VARIABLES</h1>
+    <p>The values displayed below have been fetched from javascript variables</p>
+    <p>The sum of value a: <span id="first"> </span> and b: <span id="second"></span> is</p>
+    <p id="p1"></p>
+    <p>This is an example of a string value</p>
+    <p>Your firstname is <span id="f1"></span> and lastname is <span id="l1"></span></p>
+    
+    <script>
+        // Variables can be assigned both numbers and literals(Strings)
+        
+        // with numbers
+        let a,b,c; // Variable declaration
+        a = 5; // Assignment operators are used to assign values
+        b = 30;
+        c = a + b;
+        document.getElementById('first').innerHTML=a;
+        document.getElementById('second').innerHTML=b;
+        document.getElementById('p1').innerHTML=c;
+
+        // with literals(Strings)
+        let firstname, lastname;
+        firstname = "Dennis";
+        lastname = "Kamwene";
+        document.getElementById('f1').innerHTML=firstname;
+        document.getElementById('l1').innerHTML=lastname;
+
+        
+
+    </script>
+</body>
+</html>
