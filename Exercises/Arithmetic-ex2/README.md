@@ -13,3 +13,6 @@
 - Division of a by b
 - Remainder of a divided by b
 - Display the results using console.log().
+
+#### Examples
+![arithmetic example](/Exercises/images/img1.png)
